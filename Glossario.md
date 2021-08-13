@@ -2,8 +2,18 @@
 
 <h2> Conceitos: </h2>
 
-<strong>Protocol: </strong> Protocolos definem formato, ordem de mensagens que podem ser enviadas e recebidas entre entidades de rede, e ações realizadas na recepção e na transmissão de mensagens. Tudo isso especificado de forma não ambigua. Toda comunicação na internet é governada por protocolos.
-![](./images/protocols.png)
+<strong>Protocol: </strong> Protocolos definem formato, ordem de mensagens que podem ser enviadas e recebidas entre entidades de rede, e ações realizadas na recepção e na transmissão de mensagens. Tudo isso especificado de forma não ambigua. Toda comunicação na internet é governada por protocolos. 
+<br> ![](./images/protocols.png)
+
+<strong>Packet Switch: </strong> Routers and link-layer switches. To send a message from a source end system to a destination end system, the source breaks long messages into smaller chunks of data known as packets. Between source and destination, each packet travels through communication links and packet switches (for which there are two predominant types, routers and linklayer switches). Packets are transmitted over each communication link at a rate equal to the full transmission rate of the link. So, if a source end system or a packet switch is sending a packet of L bits over a link with transmission rate R bits/sec, then the time to transmit the packet is L/R seconds.
+
+<strong>Store-and-Forward Transmission
+: </strong> Most packet switches use store-and-forward transmission at the inputs to thelinks. Store-and-forward transmission means that the packet switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.
+![](./images/store-and-forward.png)
+
+L/R é o tempo que cada caminho leva
+
+delay-end-to-end = numero_de_caminhos*L/R
 
 <h2> Siglas: </h2>
 

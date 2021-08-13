@@ -31,6 +31,10 @@ An upper-tier ISP consists of high-speed routers interconnected with high-speed
 fiber-optic links. Each ISP network, whether upper-tier or lower-tier, is managed independently, runs the IP protocol (see below), and conforms to certain naming
 and address conventions. 
 
+<strong>LAN: </strong> Local Area Network. Ethernet is an example of it. WiFi is Wireless LAN access based on IEEE 802.11
+
+<strong>LEO: </strong> Low earth orbiting satellites, twisted pair copper wire sem proteção, geralmente usado em redes internas, LANs.
+
 <strong>NAT: </strong> Network Address translation service
 
 <strong>PON: </strong> Passive Optical Networks, an optical-distribution network architectures that perform the splitting of a shared FTTH cable to multiple houses. Used in Verizon's FIOS service. 
@@ -39,6 +43,21 @@ and address conventions.
 <strong>RFCs: </strong> Requests for Comments, started out as general requests for comments (hence the name) to resolve network and protocol design problems that faced the precursor to the Internet [Allman 2011]. RFCs tend to be quite technical and detailed. They define protocols such as TCP, IP,
 HTTP (for the Web), and SMTP (for e-mail). There are currently more than 6,000 RFCs. Other bodies also specify standards for network components, most notably for network links. The IEEE 802 LAN/MAN Standards Committee [IEEE 802 2012], for example, specifies the Ethernet and wireless WiFi standards.
 
-<strong>TCP/IP: </strong> Transmission Control Protocol and Internet Protocol, two ofthe most important protocols in the Internet. The IP protocol specifies the format of
-the packets that are sent and received among routers and end systems. The Internet’s principal protocols are collectively known as TCP/IP. 
+<strong>TCP/IP: </strong> Transmission Control Protocol and Internet Protocol, two ofthe most important protocols in the Internet. The IP protocol specifies the format of the packets that are sent and received among routers and end systems. The Internet’s principal protocols are collectively known as TCP/IP. 
+
+<strong>UTP: </strong> Unshielded twisted pair, twisted pair copper wire sem proteção, geralmente usado em redes internas, LANs.
+
+
+<h2> Materiais: </h2>
+
+<strong>Twisted-Pair Copper Wire: </strong> o meio de transmissão guiado mais barato e mais utilizado. Usado há muito tempo nas redes de telefone. Consiste em dois fios de cobre isolados, cada um com cerca de 1 mm de espessura, dispostos de forma regular padrão em espiral.
+
+<strong>Coaxial Cable: </strong> Assim como Twisted-Pair Copper Wire, consiste em 2 condutores de cobre, mas eles são concêntricos ao invés de paralelos. Muito comum em sistemas de televisão a cabo.
+
+<strong>Fiber Optics: </strong> É um meio fino e flexível que conduz pulsos de luz, cada um representando um bit. Transportam taxas extremas de bits, como dezenas ou centenas de gigabits por segundo.
+
+<strong>Terrestrial Radio Channels: </strong> Carregam sinais no espectro eletromagnético. Não requerem que fio seja instalado, podem penetrar paredes, proveem conectividade para usuarios mobile e podem potencialmente carregar sinal por longas distancias. Suas características dependem bastante do ambiente de propagação e da distância.
+
+<strong>Satellite Radio Channels: </strong> A communication satellite links two or more Earth-based microwave transmitter/receivers, known as ground stations. The satellite receives transmissions on one frequency band, regenerates the signal using a repeater (discussed below), and transmits the signal on another frequency. Two types of satellites are used in communications: geostationary satellites and low-earth orbiting (LEO) satellites. Geostationary satellites permanently remain above the same spot on Earth. This stationary presence is achieved by placing the satellite in orbit at 36,000 kilometers
+above Earth’s surface. This distance creates a delay of 280 miliseconds.
 
